@@ -3,6 +3,6 @@ function getFormvalue() {
     let ele1 =document.getElementsByTagName("input")[0]
 	let ele2 = document.getElementsByTagName("input")[1]
 
-	alert(`Firstname: ${ele1.value} Lastname: ${ele2.value}`);
+	alert(`${ele1.value} ${ele2.value}`);
 	
 }
